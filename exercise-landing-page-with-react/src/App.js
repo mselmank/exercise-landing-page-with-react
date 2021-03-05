@@ -1,4 +1,3 @@
-import './App.css';
 import PrimerComponente from './components/Navbar';
 import SegundoComponente from './components/Jumbotron';
 import TercerComponente from './components/Card';
@@ -7,13 +6,14 @@ import Row from 'react-bootstrap/Row';
 import Container from 'react-bootstrap/Container';
 import Button from 'react-bootstrap/Button';
 import Jumbotron from 'react-bootstrap/Jumbotron'
+import Footer from './components/Footer';
 
 let phrases = [
 
-  {img:'http://placehold.it/500x325.jpg', title: 'Card Title 1', text: ' Some quick example text to build on the card title and make up the bulk of the cards content.', button: { label: 'Find Out More!' } },
+  {img:'http://placehold.it/500x325.jpg', title: 'Card Title 1', text: ' Some quick exam and make up the bulk of the cards content.', button: { label: 'Find Out More!' } },
   {img:'http://placehold.it/500x325.jpg', title: 'Card Title 2', text: ' Some quick example text to build on the card title and make up the bulk of the cards content.', button: { label: 'Find Out More!' } },
-  {img:'http://placehold.it/500x325.jpg', title: 'Card Title 3', text: ' Some quick example text to build on the card title and make up the bulk of the cards content.', button: { label: 'Find Out More!' } },
-  {img:'http://placehold.it/500x325.jpg', title: 'Card Title 4', text: ' Some quick example text to build on the card title and make up the bulk of the cards content.', button: { label: 'Find Out More!' } }
+  {img:'http://placehold.it/500x325.jpg', title: 'Card Title 3', text: ' Some quick example text to bu the card title and make up the bulk of the cards content.', button: { label: 'Find Out More!' } },
+  {img:'http://placehold.it/500x325.jpg', title: 'Card Title 4', text: ' Some quick exd title and make up the bulk of the cards content.', button: { label: 'Find Out More!' } }
 
 ]
 
@@ -43,6 +43,7 @@ function App() {
    
         </Row>
       </Container>
+      <Footer/>
     </>
 
   );
